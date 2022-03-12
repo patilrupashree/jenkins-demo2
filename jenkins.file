@@ -8,13 +8,13 @@ pipeline{
         }
         stage("compile"){
             steps{
-            bat "C:/Maven zip/apache-maven-3.8.4/bin/mvn clean compile"
+            bat "c:/Maven zip/apache-maven-3.8.4/bin/mvn clean compile"
             }
         }
         
          stage("package"){
             steps{
-            bat "C:/Maven zip/apache-maven-3.8.4/bin/mvn package"
+            bat "c:/Maven zip/apache-maven-3.8.4/bin/mvn package"
             }
         }
        
